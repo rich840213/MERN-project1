@@ -24,13 +24,13 @@ app.use(express.urlencoded({ extended: false }));
 const patientController = require("./controllers/patient.controller");
 const orderController = require("./controllers/order.controller");
 
-app.get("/api/reset", patientController.resetTestData);
-
 app.get("/api/patients", patientController.getPatients);
-
 app.get("/api/orders/:id", orderController.getOrders);
 app.put("/api/orders", orderController.updateOrders);
 app.delete("/api/orders/:id", orderController.deleteOrders);
+
+// for testing
+app.get("/api/reset", patientController.resetTestData);
 app.delete("/api/orders", orderController.deleteAllOrders);
 
 app.get("/*", (req, res) => {
