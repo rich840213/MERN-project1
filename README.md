@@ -47,16 +47,16 @@ Server 127.0.0.1:8888
 
 > 新增醫囑
 
-> <img src="./preview/create.gif" width="80%">
+<img src="./preview/create.gif" width="50%">
 
 ---
 
 > 修改醫囑
 
-<img src="./preview/edit.gif" width="80%" />
+<img src="./preview/edit.gif" width="50%" />
 
 ---
 
 > 刪除醫囑
 
-<img src="./preview/delete.gif" width="80%" />
+<img src="./preview/delete.gif" width="50%" />
