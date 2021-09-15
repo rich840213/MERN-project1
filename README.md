@@ -42,3 +42,21 @@ Server 127.0.0.1:8888
 | 刪除患者醫囑              | DELETE /api/orders/:id |
 | (測試用) 重新產生測試資料 | GET /api/reset         |
 | (測試用) 清空醫囑資料     | DELETE /api/orders     |
+
+## Demo
+
+> 新增醫囑
+
+> <img src="./preview/create.gif" width="80%">
+
+---
+
+> 修改醫囑
+
+<img src="./preview/edit.gif" width="80%" />
+
+---
+
+> 刪除醫囑
+
+<img src="./preview/delete.gif" width="80%" />
